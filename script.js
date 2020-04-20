@@ -1,21 +1,14 @@
-const characters = [
-  {name: "Ninja Ken", age: 14},
-  {name: "Guru Domba", age: 100},
-  {name: "Baby Ninja Ben", age: 5},
-  {name: "Birdie"}
-];
+const cafe = {
+  name: "Progate Cafe",
+  businessHours: {
+    // Tetapkan object yang sudah disediakan untuk businessHours
+    opening: "10:00",
+    closing: "20:00"
+  },
+};
 
-for (let i = 0; i < characters.length; i++) {
-  console.log("--------------------");
+// Print "Nama: ____"
+console.log(`Nama: ${cafe.name}`);
 
-  const character = characters[i];
-
-  console.log(`Nama saya adalah ${character.name}`);
-
-  // Tambahkan statement if dibawah
-  if (character.age === undefined) {
-    console.log("Umur saya rahasia!");
-  } else {
-    console.log(`Saya berumur ${character.age} tahun`);
-  }
-}
+// Print "Jam: Dari jam ____ sampai jam ____"
+console.log(`Jam: Dari jam ${cafe.businessHours.opening} sampai jam ${cafe.businessHours.closing}`);
