@@ -1,10 +1,20 @@
 const characters = [
   {name: "Ninja Ken", age: 14},
-  {name: "Guru Domba", age: 1000}
+  {name: "Guru Domba", age: 100},
+  {name: "Baby Ninja Ben", age: 5},
 ];
 
-// Print element pertama milik array characters
-console.log(characters[0]);
+// Selesaikan loop for dibawah
+for (let i = 0; i < characters.length; i++) {
+  console.log("--------------------");
 
-// Print nilai milik property name dari element array character kedua
-console.log(characters[1].name);
+  // Tentukan nilai constant character
+  const character = characters[i];
+
+  // Print "Nama saya adalah ____"
+  console.log(`Nama saya adalah ${character.name}`);
+
+  // Print "Saya berusia ____ tahun"
+  console.log(`Saya berusia ${character.age} tahun`);
+
+}
