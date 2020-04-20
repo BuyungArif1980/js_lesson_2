@@ -1,7 +1,7 @@
 const animals = ["anjing", "kucing", "domba"];
 
-// Print element array pertama
-console.log(animals[0]);
+// Gantikan element ketiga array menjadi "kelinci"
+animals[2] = "kelinci";
 
-// Print element array ketiga
+// Print array ketiga dariconstant animal ke console
 console.log(animals[2]);
