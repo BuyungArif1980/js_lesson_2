@@ -1,7 +1,6 @@
 const animals = ["anjing", "kucing", "domba"];
 
-// Gantikan element ketiga array menjadi "kelinci"
-animals[2] = "kelinci";
-
-// Print array ketiga dariconstant animal ke console
-console.log(animals[2]);
+// Gunakan loop for untuk mem-print nilai animals di console secara berurutan
+for (let i = 0; i < 3; i++) {
+  console.log(animals[i]);
+}
